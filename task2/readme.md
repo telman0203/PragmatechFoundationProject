@@ -1,0 +1,1 @@
+Class ve id selectorlari eyni deyeri menimseyib
