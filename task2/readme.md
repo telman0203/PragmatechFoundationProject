@@ -1,1 +1,1 @@
-Class ve id selectorlari eyni deyeri menimseyib
+Class ve id selectorlari eyni deyeri menimseyib. Yeni burda classA selectoru ucun blue deyeri menimseyib ve idA selectoru ucun blue deyeri menimsedilib. Eger biz classA selectoru ucun blue deyerini menimsedib idA selectoruna basqa reng deyeri menimsetmis olsaq blue yox hemin rengi cap edecek.
