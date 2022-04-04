@@ -1,0 +1,4 @@
+.features {border: 1px solid rgb(79, 128, 0);}
+.features-content {border:1px solid rgb(100, 128, 0);width:400px;height:250px;}
+.features-content-info {border:1px solid rgb(0, 128, 87);display: inline-block;width:4000px;height:250px;}
+.features-content-details {border:1px solid rgb(0, 41, 128);display: inline-block;width:400px;height:250px;}
