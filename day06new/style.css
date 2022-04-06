@@ -1,0 +1,27 @@
+/*Reset default css values */
+body {
+    margin:0px;
+}
+/*News section style*/
+.news{
+    
+}
+.news-container{
+width: 1000px;
+margin:0px auto;
+}
+.news-row{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 10px 0px;
+}
+.news-column{
+border:1px solid rgb(46, 38, 39);
+width:calc(100%/3);
+min-height: 200px;
+margin: 5px;
+padding: 10px;
+box-sizing:border-box;
+overflow: hidden;
+}
