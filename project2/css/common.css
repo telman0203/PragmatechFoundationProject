@@ -1,0 +1,87 @@
+/*The classes that are used as common*/
+/* #9ccc00; #ffffff; #31af36;  */
+:root {
+    --main-color: #31af36;
+    --secondary-color:#9ccc00 ;
+    --white-color:white;
+    --space-a:5px;
+    --space-2a:10px;
+    --space-3a:15px;
+    --space-4a:20px;
+    --space-5a:25px;
+    --space-6a:30px;
+  }
+
+.container{
+    width:1200px;
+    margin:0px auto;    
+}
+
+
+.flex{
+    display:flex !important;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-between{
+    justify-content: space-between !important;
+}
+.justify-content-around
+{justify-content: space-around;}
+.justify-content-center
+{justify-content: center;}
+.justify-content-end
+{justify-content: flex-end;}
+.align-items-center {
+    align-items: center !important;
+}
+.align-items-start {
+    align-items: flex-start !important;
+}
+.align-items-end {
+    align-items: flex-end !important;
+}
+.btn{
+border-radius:var(--space-a);
+padding:10px 20px;
+background:var(--secondary-color);
+display:inline-block;
+}
+/* Button colors*/
+.btn-bg-main {
+    background:var(--main-color);
+    color:var(--white-color);
+}
+
+.btn-bg-secondary{
+    background:var(--secondary-color);
+    color:var(--white-color);  
+}
+.btn-bg-third{
+    background:var(--white-color);
+    color:var(--main-color);
+}
+/*Button size*/
+.btn-small{
+    padding:var(--space-a) var(--space-2a) !important;
+}
+.btn-medium{
+    padding:var(--space-2a) var(--space-4a) !important;
+}
+.btn-large{
+    padding:var(--space-3a) var(--space-6a) !important;
+}
+/*Button radius*/
+.btn-radius-small{
+    border-radius:var(--space-a)
+}
+.btn-radius-medium{
+    border-radius:var(--space-2a)
+}
+.btn-radius-large{
+    border-radius:var(--space-3a)
+}

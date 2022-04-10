@@ -1,0 +1,123 @@
+/*Info section styles*/
+.info {
+background: #f8f9f9;
+color:#888888;
+padding: 12px 0px;
+font-family: 'Poppins', sans-serif;
+font-weight:300;
+font-size: 12px; }
+
+#info { 
+background:#9ccc00;
+color:white;
+padding:10px 0px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 16px;}
+
+
+.info-detail {
+   border-right:1px solid #888888 ;
+   border-left: 1px solid #888888;
+}
+.info-detail span {
+    padding:11px;
+
+}
+.info-detail span:hover {
+    color:#fab702;
+}
+.info-detail span i{
+    color:#fab702;
+    margin-right:10px;
+}
+.info-detail-b{  
+ }
+ .info-detail-b span{
+     padding:11px;
+ }
+ 
+ .info-detail-b span i{
+    margin-right:var(--space-2a);
+}
+
+
+.info-social{
+    display: flex;
+    border-right:1px solid #888888;
+    border-left:1px solid #888888;
+    
+    
+}
+.info-social span:hover{
+    color:#fab702;
+}
+
+.info-social span{
+    padding: 11px;    
+}
+
+
+.info-social-b span i:hover{
+    color:black;
+     
+}
+.info-social span i {
+    margin-right:var(--space-2a);
+    } 
+    .info-social-b span i {
+        margin-right:var(--space-2a);
+        }  
+/*Navbar section styles */
+#navbar{
+    padding:var(--space-2a) 0px;
+    font-family:'Asap', sans-serif;
+    
+} 
+
+
+.navbar-brand{
+   
+}
+.navbar-nav{
+    
+}
+.navbar-nav ul li a {
+    padding:0px var(--space-2a);
+    font-size: 1.1em;
+    font-weight: 600;
+}
+/*Slider section styles*/
+#slider{}
+
+.slider-item{
+    height: 800px;
+   
+    background-image: url(../image/backgroundimage.b-plan.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slider-item-content{
+    height:800px;
+    color:var(--white-color);
+    padding-right: 50%;
+}
+.slider-item-content h2{
+    font-size: 4em;
+    text-transform: capitalize;
+    margin:var(--space-3a);
+}
+.slider-item-content p{
+    font-size: 1.3em;
+    margin:var(--space-3a);
+}
+.slider-item-content a{
+    font-size: 1.3em;
+    margin:var(--space-3a);
+}
+.border-red{border:1px solid red;}
+.border-blue{border:1px solid blue;}
+.border-green{border:1px solid green;}
+.border-purple{border:1px solid purple;}
