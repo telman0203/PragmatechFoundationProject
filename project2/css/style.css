@@ -32,10 +32,12 @@ font-size: 16px;}
     color:#fab702;
     margin-right:10px;
 }
-.info-detail-b{  
+.info-detail-b span a{ 
+     color:white; 
  }
  .info-detail-b span{
      padding:11px;
+    
  }
  
  .info-detail-b span i{
