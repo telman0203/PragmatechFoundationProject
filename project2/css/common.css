@@ -86,7 +86,12 @@ display:inline-block;
 .btn-radius-large{
     border-radius:var(--space-3a)
 }
-.container a:hover{
-    background-color: var(--white-color);
-    color:var(--main-color);
+
+#lb:hover{
+    background: var(--white-color);
+    color:var(--secondary-color)
+}
+#rb:hover{
+    background: var(--secondary-color);
+    color:var(--white-color)  
 }
