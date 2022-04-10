@@ -27,6 +27,7 @@
 .flex-column{
     flex-direction: column;
 }
+
 .justify-content-between{
     justify-content: space-between !important;
 }
@@ -84,4 +85,8 @@ display:inline-block;
 }
 .btn-radius-large{
     border-radius:var(--space-3a)
+}
+.container a:hover{
+    background-color: var(--white-color);
+    color:var(--main-color);
 }
