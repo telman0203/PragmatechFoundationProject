@@ -124,18 +124,22 @@ font-size: 16px;}
     font-size: 1.3em;
     margin:var(--space-3a);
 }
-.burger{
-    margin:0 auto;
-   
-}
-.burger ul{
-    padding-left: 0%;
 
-}
+/* FinalProject CSS section start*/
+
 .nav-bar-menu ul{
     padding-left: 0%;
 
 }
+.nav-bar-menu ul li:hover{
+    text-decoration: line-through;
+
+}
+
+.nav-bar-menu ul li a i{
+    color:#ffffff;
+}
+
 .header{
     background: #202020 none repeat scroll 0 0;
     background-image: none;
@@ -151,13 +155,19 @@ font-size: 16px;}
 }
  .nav-bar-menu {
     color: #ffffff;
-    font-family: 'montserratsemibold';
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     line-height: 1;
     cursor: pointer;
     text-decoration: none;
 }
+
+.nav-bar-menu ul li a {
+    padding:0px var(--space-2a);
+    font-size: 1.1em;
+    font-weight: 400;}
+
 .border-red{border:1px solid red;}
 .border-blue{border:1px solid blue;}
 .border-green{border:1px solid green;}
