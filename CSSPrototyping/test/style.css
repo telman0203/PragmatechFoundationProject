@@ -1,0 +1,30 @@
+body {
+    margin:0px;
+}
+.products{border-color: blue;
+background: #fff;
+padding:50px 0px;}
+
+.products-content {border-color: blueviolet;
+display:flex; 
+padding:10px; 
+flex-wrap:wrap;  
+}
+.products-content > div {
+width: 906px;
+margin:0px auto;
+justify-content: start;
+ 
+}
+
+
+.products-content-item{border-color: aqua;
+width:33%;
+height: 360px;
+margin:0px 2px;
+background:white;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 25px;
+}

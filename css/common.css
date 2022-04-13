@@ -87,11 +87,11 @@ display:inline-block;
     border-radius:var(--space-3a)
 }
 
-#lb:hover{
+.lb:hover{
     background: var(--white-color);
     color:var(--secondary-color)
 }
-#rb:hover{
+.rb:hover{
     background: var(--secondary-color);
     color:var(--white-color)  
 }
