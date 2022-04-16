@@ -162,52 +162,11 @@ font-size: 16px;}
     cursor: pointer;
     text-decoration: none;
 }
+
 .nav-bar-menu ul li a {
     padding:0px var(--space-2a);
     font-size: 1.1em;
     font-weight: 400;}
-    /*Final project header css section style start*/
-.text-myname{
-    color:#bfbfbf;
-}
-.text-andrew{
-    color:#ffffff!important;
-}
-.text-on{
-    color:#e1e1e1;
-}
-.header-btn{
-    margin:40px 0px;
-    width:150px;
-    min-height:auto;
-    border-radius:var(--space-a);
-    padding:10px 20px;
-    color:#dddddd;
-    background:#fff;
-    display:inline-block;
-    }
-    .header-btn a{
-        margin-left:25%;
-        color:black;    
-    }
-    .header-btn:hover{
-        background: #000000;
-          
-    }
-    .header-btn:hover a{
-        color:#fff
-    }
-
-    .header{
-        background: #333;
-    }
-    .header-container .row{
-        width:1200px;
-        margin:0px auto; 
-        color:white    
-    }
-  
-
 
 .border-red{border:1px solid red;}
 .border-blue{border:1px solid blue;}

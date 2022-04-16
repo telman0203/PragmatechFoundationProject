@@ -1,0 +1,7 @@
+.flag{
+    width:600px;
+    height:150px;
+    background: red;
+    border-top: 150px solid blue;
+    border-bottom:150px solid green;
+}
