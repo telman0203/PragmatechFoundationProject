@@ -185,10 +185,12 @@ font-size: 16px;}
     color:#dddddd;
     background:#fff;
     display:inline-block;
+    transition:all 0.3s linear;
     }
     .header-btn a{
         margin-left:25%;
-        color:black;    
+        color:black;
+        transition:all 0.3s linear;    
     }
     .header-btn:hover{
         background: #000000;
@@ -209,7 +211,3 @@ font-size: 16px;}
   
 
 
-.border-red{border:1px solid red;}
-.border-blue{border:1px solid blue;}
-.border-green{border:1px solid green;}
-.border-purple{border:1px solid purple;}
