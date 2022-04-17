@@ -230,7 +230,12 @@ font-size:28px;
 .margin-auto{
     margin:20px auto;
 }
+/*Margin top minus*/
+.m-t-80{
+    margin-top:-80px;
+}
 /*Margin-top*/
+
 .m-t-x{
     margin-top:50px;
 }
@@ -310,7 +315,15 @@ font-size:28px;
     width:50%;
     color: green;
 }
-
+.p-b-x{
+    padding-bottom:5px;
+}
+.p-b-2x{
+    padding-bottom:10px;
+}
+.m-b-x{
+ margin-bottom: 5px;   
+}
 .border-red{border:1px solid red;}
 .border-blue{border:1px solid blue;}
 .border-green{border:1px solid green;}
