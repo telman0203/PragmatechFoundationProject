@@ -296,6 +296,37 @@ font-size:28px;
 .m-t-40{
     margin-top:40px;
 }
+/*Margin-left*/
+.m-l-x{
+    margin-left: 5px;
+}
+.m-l-2x{
+    margin-left: 10px;
+}
+.m-l-3x{
+    margin-left: 15px;
+}
+.m-l-4x{
+    margin-left: 20px;
+}
+.m-l-5x{
+    margin-left: 25px;
+}
+.m-l-6x{
+    margin-left: 30px;
+}
+.m-l-7x{
+    margin-left: 35px;
+}
+.m-l-8x{
+    margin-left: 40px;
+}
+.m-l-9x{
+    margin-left: 45px;
+}
+.m-l-10x{
+    margin-left: 50px;
+}
 /*Element common width*/
 .row{
     margin:10px 0px;
